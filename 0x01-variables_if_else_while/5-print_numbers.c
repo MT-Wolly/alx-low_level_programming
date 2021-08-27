@@ -1,4 +1,4 @@
-#include <stdio.h>
+9#include <stdio.h>
 
 /**
  * main - Prints single digit numbers from 0 - 9.
@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d\n", i);
+		printf("%d", i);
 	}
 	putchar('/n');
 	return (0);
