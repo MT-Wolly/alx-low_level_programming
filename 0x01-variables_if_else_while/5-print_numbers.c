@@ -13,5 +13,6 @@ int main(void)
 	{
 		printf("%d\n", i);
 	}
+	putchar('/n');
 	return (0);
 }
