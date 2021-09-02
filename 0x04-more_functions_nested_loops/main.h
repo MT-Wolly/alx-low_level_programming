@@ -1,5 +1,12 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H_
+#define MAIN_H_
+
+/*
+* File: main.h
+* Author: Wolly Mustapha
+* Description: header file containing prototypes used 
+* in more nested loops
+*/
 
 int _isupper(int c);
 int _isdigit(int c);
