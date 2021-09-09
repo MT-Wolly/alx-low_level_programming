@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - Changes all lowercase letters
- *                  of a string to uppercase.
+ * of a string to uppercase.
  * @str: Input string.
  *
  * Return: A pointer to the string.
@@ -14,7 +14,7 @@ int index = 0;
 while (str[index])
 {
 if (str[index] >= 'a' && str[index] <= 'z')
-str[index] -= 32;
+str[index] = str[index] - 32;
 
 index++;
 }
