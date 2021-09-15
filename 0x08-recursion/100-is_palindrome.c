@@ -10,7 +10,7 @@ int _strlen_recurse(char *s)
 	if (*s == '\0')
 		return (0);
 	else
-		return (1 + _strlen_recursion(s + 1));
+		return (1 + _strlen_recurse(s + 1));
 }
 /**
 * compare - compares each character of the string
