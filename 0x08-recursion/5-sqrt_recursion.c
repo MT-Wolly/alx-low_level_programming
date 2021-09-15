@@ -15,6 +15,7 @@ int power(int n, int p)
 		else
 			return (-1);
 	}
+	return (0 + power(n, p + 1));
 }
 /**
 * _sqrt_recursion - returns natural sqaure root of a number
