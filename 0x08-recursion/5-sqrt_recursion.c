@@ -10,7 +10,7 @@ int power(int n, int p)
 {
 	if (p % (n / p) == 0)
 	{
-		if (p * (p / n) == n)
+		if (p * (n / p) == n)
 			return (p);
 		else
 			return (-1);
