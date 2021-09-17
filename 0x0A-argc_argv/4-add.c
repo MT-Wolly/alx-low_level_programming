@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		addition += atoi()argv[i];
+		addition += atoi(argv[i]);
 	}
 	printf("%d\n", addition);
 	return (0);
