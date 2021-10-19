@@ -23,7 +23,7 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - checking the code.
  * @argc: number of arguments.
  * @argv: arguments vector.
  * Return: Always 0.
@@ -69,3 +69,4 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	return (0);
+}
