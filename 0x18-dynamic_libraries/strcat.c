@@ -2,26 +2,6 @@
 #include "main.h"
 
 /**
- *_strlen - returns the length of a string
- *@str: input string
- *Return: returns the length of a string
- */
-int _strlen(char *str)
-{
-int length = 0;
-
-while (*str)
-{
-str++;
-length++;
-}
-
-return (length);
-
-}
-
-
-/**
  *_strcat - concatinates two strings
  *@dest:destination pointer
  *@src:pointer to a string
